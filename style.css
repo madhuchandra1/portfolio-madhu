@@ -1,0 +1,120 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color:#fe424d; /* Light background color */
+    color: #333333; /* Dark text color for readability */
+    font-size: 12px; /* General text font size */
+    padding: 20px;
+}
+
+/* Navigation styles */
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #333333; /* Dark text color for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #00796b; /* Slightly darker hover color */
+}
+
+/* Intro section styles */
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    background: linear-gradient(135deg,aqua, aqua); /* Light decorative background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow */
+}
+
+.intro h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #00796b; /* Highlight color */
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    color: #333333; /* Dark text color */
+}
+
+.intro h2 .highlight {
+    color: #00796b; /* Same highlight color */
+}
+
+.intro p {
+    font-size: 1em;
+    margin: 20px 0;
+    color: #666666; /* Muted text color for paragraph */
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #00796b; /* Highlight color for social icons */
+    font-size: 1.5em;
+    transition: transform 0.3s;
+}
+
+social-icons a:hover {
+    transform: scale(1.1);
+}
+
+/* Profile picture styles */
+.profile-picture img {
+    border-radius: 50%;
+    width: 150px; /* Smaller profile picture */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lighter shadow */
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 14px; /* Header font size */
+    color: #333333; /* Dark text color */
+    border-bottom: 2px solid #00796b; /* Border color matches highlight */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Achievements and activities section styles */
+#achievements {
+    padding: 20px;
+    background: #f5f5f5; /* Slightly darker background for sections */
+    border-radius: 8px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #333333; /* Dark text color */
+}
+
